@@ -103,6 +103,8 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.13.10-x86_64-linux)
       racc (~> 1.4)
+    puma (6.0.0)
+      nio4r (~> 2.0)
     racc (1.6.1)
     rack (2.2.4)
     rack-test (2.0.2)
@@ -155,6 +157,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  puma
   sprockets-rails
   sqlite3
   turbo_clone!
