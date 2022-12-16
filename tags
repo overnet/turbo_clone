@@ -1,0 +1,66 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/ruslan/Projects/ruby/hotrails/turbo_clone/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+APP_PATH	bin/rails	/^APP_PATH = File.expand_path("..\/test\/dummy\/config\/application", __dir__)$/;"	C
+APP_PATH	test/dummy/bin/rails	/^APP_PATH = File.expand_path("..\/config\/application", __dir__)$/;"	C
+APP_ROOT	test/dummy/bin/setup	/^APP_ROOT = File.expand_path("..", __dir__)$/;"	C
+Application	test/dummy/config/application.rb	/^  class Application < Rails::Application$/;"	c	module:Dummy
+ApplicationCable	test/dummy/app/channels/application_cable/channel.rb	/^module ApplicationCable$/;"	m
+ApplicationCable	test/dummy/app/channels/application_cable/connection.rb	/^module ApplicationCable$/;"	m
+ApplicationController	app/controllers/turbo_clone/application_controller.rb	/^  class ApplicationController < ActionController::Base$/;"	c	module:TurboClone
+ApplicationController	test/dummy/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	test/dummy/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+ApplicationJob	app/jobs/turbo_clone/application_job.rb	/^  class ApplicationJob < ActiveJob::Base$/;"	c	module:TurboClone
+ApplicationJob	test/dummy/app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	c
+ApplicationMailer	app/mailers/turbo_clone/application_mailer.rb	/^  class ApplicationMailer < ActionMailer::Base$/;"	c	module:TurboClone
+ApplicationMailer	test/dummy/app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c
+ApplicationRecord	app/models/turbo_clone/application_record.rb	/^  class ApplicationRecord < ActiveRecord::Base$/;"	c	module:TurboClone
+ApplicationRecord	test/dummy/app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c
+Article	test/dummy/app/models/article.rb	/^class Article < ApplicationRecord$/;"	c
+ArticleTest	test/dummy/test/models/article_test.rb	/^class ArticleTest < ActiveSupport::TestCase$/;"	c
+ArticlesController	test/dummy/app/controllers/articles_controller.rb	/^class ArticlesController < ApplicationController$/;"	c
+Channel	test/dummy/app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	module:ApplicationCable
+Connection	test/dummy/app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	module:ApplicationCable
+Contributing	README.md	/^## Contributing$/;"	s	chapter:TurboClone
+CreateArticles	test/dummy/db/migrate/20221208103229_create_articles.rb	/^class CreateArticles < ActiveRecord::Migration[7.0]$/;"	c
+Dummy	test/dummy/config/application.rb	/^module Dummy$/;"	m
+ENGINE_PATH	bin/rails	/^ENGINE_PATH = File.expand_path("..\/lib\/turbo_clone\/engine", __dir__)$/;"	C
+ENGINE_ROOT	bin/rails	/^ENGINE_ROOT = File.expand_path("..", __dir__)$/;"	C
+Engine	lib/turbo_clone/engine.rb	/^  class Engine < ::Rails::Engine$/;"	c	module:TurboClone
+FramesHelper	app/helpers/turbo_clone/frames_helper.rb	/^module TurboClone::FramesHelper$/;"	m	module:TurboClone
+Installation	README.md	/^## Installation$/;"	s	chapter:TurboClone
+License	README.md	/^## License$/;"	s	chapter:TurboClone
+NavigationTest	test/integration/navigation_test.rb	/^class NavigationTest < ActionDispatch::IntegrationTest$/;"	c
+The change you wanted was rejected.	test/dummy/public/422.html	/^      <h1>The change you wanted was rejected.<\/h1>$/;"	h
+The page you were looking for doesn't exist.	test/dummy/public/404.html	/^      <h1>The page you were looking for doesn't exist.<\/h1>$/;"	h
+TurboClone	README.md	/^# TurboClone$/;"	c
+TurboClone	app/controllers/turbo_clone/application_controller.rb	/^module TurboClone$/;"	m
+TurboClone	app/jobs/turbo_clone/application_job.rb	/^module TurboClone$/;"	m
+TurboClone	app/mailers/turbo_clone/application_mailer.rb	/^module TurboClone$/;"	m
+TurboClone	app/models/turbo_clone/application_record.rb	/^module TurboClone$/;"	m
+TurboClone	lib/turbo_clone.rb	/^module TurboClone$/;"	m
+TurboClone	lib/turbo_clone/engine.rb	/^module TurboClone$/;"	m
+TurboClone	lib/turbo_clone/version.rb	/^module TurboClone$/;"	m
+TurboCloneTest	test/turbo_clone_test.rb	/^class TurboCloneTest < ActiveSupport::TestCase$/;"	c
+Usage	README.md	/^## Usage$/;"	s	chapter:TurboClone
+VERSION	lib/turbo_clone/version.rb	/^  VERSION = "0.1.0"$/;"	C	module:TurboClone
+We're sorry, but something went wrong.	test/dummy/public/500.html	/^      <h1>We're sorry, but something went wrong.<\/h1>$/;"	h
+article_params	test/dummy/app/controllers/articles_controller.rb	/^  def article_params$/;"	f	class:ArticlesController
+change	test/dummy/db/migrate/20221208103229_create_articles.rb	/^  def change$/;"	f	class:CreateArticles
+create	test/dummy/app/controllers/articles_controller.rb	/^  def create$/;"	f	class:ArticlesController
+default	test/dummy/config/database.yml	/^default: &default$/;"	a
+destroy	test/dummy/app/controllers/articles_controller.rb	/^  def destroy$/;"	f	class:ArticlesController
+index	test/dummy/app/controllers/articles_controller.rb	/^  def index$/;"	f	class:ArticlesController
+new	test/dummy/app/controllers/articles_controller.rb	/^  def new$/;"	f	class:ArticlesController
+set_article	test/dummy/app/controllers/articles_controller.rb	/^  def set_article$/;"	f	class:ArticlesController
+system!	test/dummy/bin/setup	/^def system!(*args)$/;"	f
+turbo_frame_tag	app/helpers/turbo_clone/frames_helper.rb	/^  def turbo_frame_tag(resource, &block)$/;"	f	module:FramesHelper
+update	test/dummy/app/controllers/articles_controller.rb	/^  def update$/;"	f	class:ArticlesController

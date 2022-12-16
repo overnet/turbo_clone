@@ -1,5 +1,5 @@
 class ArticlesController < ApplicationController
-  before_action :set_article, only: %i[edit update destoy]
+  before_action :set_article, only: %i[edit update destroy]
 
   def index
     @articles = Article.all
@@ -13,7 +13,10 @@ class ArticlesController < ApplicationController
     @article = Article.new(article_params)
 
     if @article.save
-      redirect_to articles_path
+      respond_to do |format|
+        format.html { redirect_to articles_path }
+        format.turbo_stream
+      end
     else
       render :new
     end

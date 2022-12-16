@@ -1,7 +1,10 @@
+<%= turbo_frame_tag article do %>
 <div>
-  Article <%= "#{article.id}" %>
+  Article <%= "##{article.id}" %>
 &bull; 
   <%= link_to "Edit", edit_article_path(article) %>
   &bull; 
   <%= button_to "Delete", article_path(article), method: :delete, form: {style: "display: inline;"} %>
 </div>
+<% end %>
+
